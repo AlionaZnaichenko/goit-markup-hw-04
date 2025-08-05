@@ -130,6 +130,7 @@ a {
 .page-section-one {
   background-color: #2e2f42;
   padding: 188px 0;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -148,7 +149,6 @@ a {
   gap: 48px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1440px;
 }
 .post-title {
   font-weight: 700;
