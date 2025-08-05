@@ -265,7 +265,7 @@ a {
 }
 .text-container-team {
   text-align: center;
-  padding: 32px 0 8px;
+  padding: 32px 0;
 }
 .our-team-list-name {
   font-weight: 500;
@@ -287,7 +287,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 32px;
+  margin-top: 8px;
 }
 .icons-conteiner {
   width: 40px;
@@ -391,10 +391,12 @@ a {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+
 .container-footer {
   justify-content: flex-start;
   flex-direction: column;
 }
+
 .logo-container-footer {
   display: inline-block;
   margin-bottom: 16px;
