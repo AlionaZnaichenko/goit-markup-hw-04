@@ -148,6 +148,7 @@ a {
   gap: 48px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1440px;
 }
 .post-title {
   font-weight: 700;
@@ -173,6 +174,7 @@ a {
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:focus {
@@ -189,7 +191,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 8px;
 }
 .visually-hidden {
   position: absolute;
@@ -222,6 +223,7 @@ a {
   background-color: #f4f4fd;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 .advantages-list-description {
